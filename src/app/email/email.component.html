@@ -1,0 +1,54 @@
+
+<div class="emailList">
+    <!-- Settings starts -->
+    <div class="emailListSettings">
+        <div class="emailListSettingsLeft">
+            <input type="checkbox" />
+            <mat-icon>arrow_drop_down</mat-icon>
+            <mat-icon>refresh</mat-icon>
+            <mat-icon>more_vert</mat-icon>
+        </div>
+        <div class="emailListSettingsRight">
+            <mat-icon>chevron_left</mat-icon>
+            <mat-icon>chevron_right</mat-icon>
+        </div>
+    </div> 
+    <!-- Settings ends -->
+    <!-- Section starts -->
+    <div>
+        <div class="emailListSections">
+            <div class="sections section_selected">
+                <mat-icon>inbox</mat-icon>
+                 <h3>Primary</h3>
+            </div>
+            <div class="sections">
+                <mat-icon>group</mat-icon>
+                 <h3>Social</h3>
+            </div>
+            <div class="sections">
+                <mat-icon> local_offer</mat-icon>
+                 <h3>Promotions</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Section ends -->
+    <div class="emailList_list" *ngFor="let i of numbers">
+        <!-- For loop here *ngFor="let i of numbers"-->
+        <div class="emailRow">
+            <div class="emailRowOptions">
+                <input type="checkbox">
+                <mat-icon>star</mat-icon>
+                <mat-icon>label_important</mat-icon>
+            </div>
+            <div class="emailRow_title">
+                <h5>Gaurav Samar </h5>
+            </div>
+            <div class="emailRow_message">
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sit perferendis ad ducimus quaerat eaque itaque. Cupiditate, magni, beatae sit ab porro consequuntur nesciunt a quo pariatur corporis deleniti odio?</h5>
+            </div>
+            <div class="emailRowTime">
+                <h5>10 PM</h5>
+            </div>
+        </div>
+    </div>
+</div>

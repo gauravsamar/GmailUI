@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main_body
+{
+    display: flex;
+    /* flex-flow: row;
+    justify-content: left; */
+}
+
+app-sidebar
+{
+    width: 250px;
+}
+app-email
+{
+    width: 100%;
+}

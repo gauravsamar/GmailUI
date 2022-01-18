@@ -1,0 +1,140 @@
+/* email list  */
+.emailList
+{
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    flex:1;
+}
+mat-icon{
+    color:grey;
+    margin:2px;
+    cursor: pointer;
+}
+.emailListSettings
+{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+    padding: box;
+    z-index: 999;
+}
+.emailListSettingsLeft
+{
+    display: flex;
+    align-items: center;
+}
+.emailListSettingsRight
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+/* email list ends  */
+/* Section starts */
+/* .emailListSections
+{
+    display: flex;
+} */
+.sections
+{
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    border-width: 0;
+    min-width: 200px;
+    color: grey;
+    border-width: 0;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 60%;
+}
+.emailListSections
+{
+    position:sticky;
+    top:0;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 999;
+}
+.section_selected
+{
+    background-color: whitesmoke;
+    border-width: 3px;
+    color:#c04b37;
+    border-bottom:3px solid #c04b37;
+}
+.section_selected mat-icon
+{
+    color:#c04b37;
+}
+.sections:hover
+{
+    background-color: whitesmoke;
+    border-width: 3px;
+}
+/* Section ends  */
+/* Email list row starts */
+.emailRowOptions
+{
+    display: flex;
+    align-items: center;
+}
+.emailRowOptions mat-icon,input
+{
+    margin:5px;
+}
+.emailRow
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+    z-index: 999;
+    margin-right: 10px;
+}
+h5{
+    color:grey;
+    font-weight: 500;
+}
+.emailRow:hover
+{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0,0,0,0.75);
+}
+.emailRow_message
+{
+    flex:0.8;
+    align-items: center;
+    display: flex;
+
+}
+.emailRow_message h5
+{
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.emailRow_title
+{
+    flex:0.2;
+    align-items: center;
+    display: flex;
+    
+}
+.emailRow_time
+{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+/* Email list row ends */
