@@ -55,7 +55,7 @@ mat-icon{
 }
 .emailListSections
 {
-    position:sticky;
+    /* position:sticky; */
     top:0;
     display: flex;
     background-color: white;
@@ -100,8 +100,12 @@ mat-icon{
     margin-right: 10px;
 }
 h5{
+    margin-top: 10px;
     color:grey;
     font-weight: 500;
+}
+h3{
+    margin-top: 15px;
 }
 .emailRow:hover
 {

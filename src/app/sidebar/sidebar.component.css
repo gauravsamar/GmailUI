@@ -23,10 +23,10 @@ mat-icon{
     cursor: pointer;
     color:grey;
 }
-.sidebar_options
+/* .sidebar_options
 {
     width: 100%;
-}
+} */
 .sidebar_option
 {
     flex:1;
@@ -37,6 +37,7 @@ mat-icon{
     height: 40px;
 }
 h5{
+    margin-top: 10px;
     color:grey;
     font-weight: 500;
     font-size: small;
